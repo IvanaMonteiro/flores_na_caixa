@@ -1,0 +1,125 @@
+.color-nav {
+  background-color: #6ecb63;
+  box-shadow: 0px 3px 20px 5px #6ecb63;
+}
+
+.navbar-collapse {
+  justify-content: space-between !important;
+}
+
+.main-nav {
+  margin: 0 10px 0 5px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3d1e0f !important;
+}
+
+.agrupamento-direita {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .agrupamento-direita {
+    justify-content: center;
+    border-top: 1px solid #3d1e0f;
+  }
+}
+
+@media (max-width: 400px) {
+  .agrupamento-direita {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.custom-search-button {
+  margin-left: 8px;
+}
+
+a.nav-link {
+  color: #3d1e0f;
+  transition: 0.8s;
+  align-items: center;
+  text-align: center;
+}
+
+a.nav-link:hover {
+  box-shadow: 0 2px 0 #3d1e0f;
+}
+
+.logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#seucarrinho {
+  padding: 12px 12px 12px 12px;
+  margin-right: 1rem;
+  border: 1px solid #3d1e0f;
+  border-radius: 16px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: transparent;
+  position: relative;
+  color: #3d1e0f;
+}
+
+#seucarrinho svg,
+#logar-conta svg {
+  width: 22px;
+  height: 20px;
+}
+
+#logar-conta {
+  background-color: transparent;
+  border: 1px solid #3d1e0f;
+  border-radius: 16px;
+  padding: 12px 12px 12px 12px;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #3d1e0f;
+}
+
+#seucarrinho:hover,
+#logar-conta:hover {
+  background-color: #b1e693;
+  color: #3d1e0f;
+  transition: 0.24s ease-in-out;
+}
+
+.btn-outline-dark {
+  border-radius: 2rem;
+}
+
+.custom-search-button {
+  background-color: #6ecb63 !important;
+  border-color: #b1e693 !important;
+  color: #3d1e0f !important;
+  border-radius: 12px !important;
+  border: 1px solid #3d1e0f !important;
+}
+
+.custom-search-button:hover {
+  background-color: #b1e693 !important;
+  color: #3d1e0f !important;
+}
+
+.cart-counter {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #3d1e0f;
+  color: #b1e693;
+  font-size: 12px;
+  font-weight: bold;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+**/node_modules/
+
+# Informações privadas
+.env
+.env.*
+!.env.example
+
+# Ficheiros gerados
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Ficheiros do sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+.vscode/

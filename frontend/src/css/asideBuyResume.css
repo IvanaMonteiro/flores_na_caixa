@@ -1,0 +1,137 @@
+.aside-buy-resume-content {
+  position: sticky;
+  top: 160px;
+
+  right: 20px;
+  width: 380px;
+  height: 65%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #6ecb63;
+  backdrop-filter: blur(3px);
+
+  margin-top: 42px;
+
+  border-radius: 15px;
+  border-bottom: 2px solid #6ecb63;
+  border-top: 2px solid #6ecb63;
+  border-color: #3d1e0f;
+
+  padding: 10px;
+}
+
+.button-to-payment {
+  background-color: #b1e693;
+  color: #3d1e0f;
+  transition: 0.3s ease-in-out;
+}
+
+.button-to-payment:hover {
+  background-color: #3d1e0f;
+  color: #6ecb63 !important;
+  border-color: #6ecb63 !important;
+  transition: 0.3s ease-in-out;
+}
+
+.button-to-payment:active {
+  background-color: #3d1e0f;
+  color: #6ecb63 !important;
+  border-color: #6ecb63 !important;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 1150px) {
+  .cart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-list {
+    margin-right: 0;
+  }
+
+  .aside-buy-resume-content {
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    height: 230px;
+    font-size: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .button-to-payment {
+    font-size: 15px !important;
+  }
+
+  .price-resume {
+    padding: 5px !important;
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 312px) {
+  .cart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-list {
+    margin-right: 0;
+  }
+
+  .aside-buy-resume-content {
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    height: 262px;
+    font-size: 8px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .button-to-payment {
+    font-size: 15px !important;
+  }
+
+  .price-resume {
+    padding: 5px !important;
+    width: 100% !important;
+  }
+}
+
+.button-to-payment {
+  box-shadow: 0px 8px 15px #3d1e0f !important;
+  transition: all 0.3s ease 0s !important;
+  border-radius: 8px !important;
+  border-color: #3d1e0f;
+}
+
+.button-to-payment:hover {
+  box-shadow: 0px 15px 20px #3d1e0f !important;
+  transition: 0.3s ease-in-out !important;
+  background-color: #6ecb63;
+  color: #3d1e0f !important;
+  border-color: #6ecb63 !important;
+}
+
+.aside-hr {
+  background: none;
+  border-top: 1px double #3d1e0f;
+  margin: 10px;
+  width: 98% !important;
+}
+
+.price-resume {
+  background: #b1e693;
+  color: #3d1e0f;
+  padding: 18px;
+  width: 100%;
+  border: 2px solid #3d1e0f;
+  margin-bottom: 14px;
+  border-radius: 15px;
+}

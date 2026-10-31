@@ -1,0 +1,12 @@
+.btnClose {
+  background-color: transparent !important;
+  width: 104px !important;
+  margin: 10px;
+}
+
+.btnClose:hover {
+  background-color: transparent !important;
+  color: #3d1e0f !important;
+  transition: 0.3s ease-in-out;
+  border-color: #3d1e0f !important;
+}

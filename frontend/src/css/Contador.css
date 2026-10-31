@@ -1,0 +1,57 @@
+.content-button-contador-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3d1e0f;
+}
+
+#quantity {
+  font-size: 1.1rem;
+}
+
+#buttonAumentoOuDesfaz {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+#buttonAumentoOuDesfaz Button {
+  border-radius: 8px;
+  border: 1px solid #3d1e0f !important;
+  background-color: transparent !important;
+  width: 50px;
+  box-sizing: border-box;
+  height: 26px;
+  padding: 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+  disablewave: true !important;
+  wavecolor: transparent !important;
+  box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
+}
+
+#buttonAumentoOuDesfaz Button:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s linear;
+  color: #252525 !important;
+  background: #6ecb63 !important;
+  border-color: #6ecb63 !important;
+}
+
+#buttonAumentoOuDesfaz Button:active {
+  box-shadow: 0px 15px 20px rgba(400, 229, 157, 0.3);
+  transition: 0.2s linear;
+  color: #3d1e0f !important;
+  background: #3d1e0f !important;
+  color: #6ecb63 !important;
+  border-color: #3d1e0f !important;
+}
+
+.ant-btn-primary {
+  background-color: red !important;
+}
+
+#buttonAumentoOuDesfaz Button div {
+  color: #6ecb63 !important;
+}

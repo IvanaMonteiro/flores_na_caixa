@@ -1,0 +1,33 @@
+.data-review-modal {
+  border: 1px solid #3d1e0f;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #fbf4e9;
+}
+
+.data-review-modal p,
+.ant-table-content,
+strong {
+  color: #3d1e0f;
+}
+
+.ant-table {
+  border-radius: 15px !important;
+}
+
+@media (max-width: 768px) {
+  .ant-table {
+    overflow: auto;
+  }
+
+  .data-review-modal {
+    padding: 0;
+  }
+
+  .data-review-modal p {
+    margin: 10px;
+  }
+}

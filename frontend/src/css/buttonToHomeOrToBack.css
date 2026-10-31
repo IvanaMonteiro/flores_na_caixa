@@ -1,0 +1,41 @@
+.links-page-not-found {
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 300px) {
+  .links-page-not-found {
+    flex-direction: column;
+  }
+}
+
+.link-to-home {
+  background-color: #6ecb63;
+  border: 1px solid #6ecb63;
+  color: #3d1e0f;
+  padding: 0.65rem;
+  width: 9rem;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.link-to-back {
+  background-color: none;
+  border: 1px solid #3d1e0f;
+  color: #3d1e0f;
+  width: 6rem;
+  padding: 0.65rem;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.link-to-home:hover,
+.link-to-back:hover {
+  background-color: #3d1e0f;
+  color: #fbf4e9;
+  transition: 0.3s background-color;
+}

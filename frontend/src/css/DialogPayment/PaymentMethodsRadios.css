@@ -1,0 +1,21 @@
+.ant-radio-button-wrapper:hover {
+  color: #3d1e0f !important;
+
+  border-color: #6ecb63 !important;
+  background-color: #6ecb63 !important;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  border-color: #b1e693 !important;
+  color: #3d1e0f !important;
+  background-color: #b1e693 !important;
+  box-shadow: 0px 6px 10px #3d1e0f;
+}
+
+.ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  )::before {
+  border-color: #6ecb63 !important;
+  color: #b1e693 !important;
+  background-color: #6ecb63 !important;
+}

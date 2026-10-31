@@ -1,0 +1,41 @@
+.buy-and-cart-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: #3d1e0f;
+}
+
+.buttons-detali {
+  transition: all 0.3s ease 0s;
+}
+
+.buttons-detali:hover {
+  box-shadow: 0px 8px 20px rgba(416, 229, 157, 0.4) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-addToCart {
+  background: transparent;
+  color: #3d1e0f;
+  border-color: #3d1e0f;
+}
+
+.btn-BuyNow {
+  background-color: #6ecb63;
+}
+
+.btn-BuyNow:hover,
+.btn-addToCart:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1) !important;
+  transition: 0.3s ease-in-out !important;
+  background-color: #6ecb63 !important;
+  color: #3d1e0f !important;
+  border-color: #ddd !important;
+}
+
+.btn-BuyNow:active,
+.btn-addToCart:active {
+  background: #3d1e0f;
+  color: #6ecb63 !important;
+  border-color: #3d1e0f !important;
+}

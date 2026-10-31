@@ -1,0 +1,166 @@
+.about {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 20rem;
+}
+
+.about h1 {
+  font-size: 2.2rem;
+}
+
+.section-about {
+  background-image: url("/assets//fundo_flores.jpg");
+  width: 100%;
+  box-shadow: inset 0 140px #fbf4e9, inset 0 -340px #fbf4e9;
+}
+
+.content-card-about {
+  position: relative;
+  z-index: 2;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #3d1e0f;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-in-about {
+  background-repeat: repeat;
+  height: 800px;
+  width: 400px;
+  border-radius: 150px;
+}
+
+.text-about {
+  width: 120%;
+  padding: 2rem;
+  margin: 5rem 5rem 5rem 10rem;
+  text-align: center;
+  background: #6ecb63;
+  border-radius: 100px;
+  box-shadow: 0px 0px 25px 1px #3d1e0f;
+}
+
+.subtexts-about {
+  margin: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  color: #3d1e0f;
+}
+
+.hr-subtext {
+  border-style: groove;
+  border-color: #3d1e0f;
+}
+
+.p-subtext {
+  width: 340px;
+}
+
+@media (max-width: 900px) {
+  .imagem-in-about {
+    visibility: hidden; /* Para ocultar a imagem */
+  }
+
+  .section-about {
+    overflow: hidden;
+    box-shadow: inset 0 110px #fbf4e9, inset 0 -330px #fbf4e9;
+  }
+
+  .text-about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content-card-about {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr 0;
+    justify-items: center;
+  }
+
+  .section-about {
+    background: #3d1e0f;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 655px) {
+  .text-about {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .section-about {
+    overflow: hidden;
+    box-shadow: inset 0 100px #fbf4e9, inset 0 -430px #fbf4e9;
+  }
+
+  .subtexts-about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-subtext {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-about {
+    width: 90%;
+  }
+
+  .section-about {
+    overflow: hidden;
+    box-shadow: inset 0 82px #fbf4e9, inset 0 -450px #fbf4e9;
+  }
+
+  .subtexts-about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-subtext {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .section-about {
+    overflow: hidden;
+    box-shadow: inset 0 74px #fbf4e9, inset 0 -520px #fbf4e9;
+  }
+}
+
+@media (max-width: 355px) {
+  .text-about {
+    width: 90%;
+  }
+
+  .section-about {
+    overflow: hidden;
+    box-shadow: inset 0 20px #fbf4e9, inset 0 -545px #fbf4e9;
+  }
+
+  .subtexts-about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-subtext {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .section-about {
+    overflow: hidden;
+    box-shadow: inset 0 20px #fbf4e9, inset 0 -580px #fbf4e9;
+  }
+}
