@@ -37,7 +37,7 @@ export default function SearchResultsPage() {
               >
                 <li className="search-result-item">
                   <SkeletonImageComponent
-                    productImage={`/project-vite-react-ecommerce/${product.cover[0]}`}
+                    productImage={`${import.meta.env.BASE_URL}${product.cover[0]}`}
                     productName={product.name}
                     className="product-image-in-search"
                   />
@@ -60,7 +60,7 @@ export default function SearchResultsPage() {
       ) : (
         <div className="not-found-in-search-result">
           <SkeletonImageComponent
-            productImage="/project-vite-react-ecommerce/assets/not-found-search.png"
+           productImage={`${import.meta.env.BASE_URL}assets/not-found-search.png`}
             productName="Não encontrado"
           />
           <h3>Não encontramos o produto que você digitou: {term}</h3>

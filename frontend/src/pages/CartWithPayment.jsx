@@ -32,7 +32,7 @@ export default function CartWithPayment() {
           <>
             <div className="cart-without-products">
               <img
-                src="/project-vite-react-ecommerce/assets/cart-without-products.png"
+              src={`${import.meta.env.BASE_URL}assets/cart-without-products.png`}
                 alt="Carrinho vazio"
               />
               <h4>Seu carrinho de compras está vazio.</h4>

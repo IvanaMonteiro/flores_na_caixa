@@ -55,7 +55,7 @@ export default function ProductDetail() {
   return (
     <div className="container-page-product">
       <div className="route-Detail">
-        <a href="/project-vite-react-ecommerce/">Home</a> ⇒{" "}
+        <a href="#/">Home</a> ⇒{" "}
         {selectedProduct.name}
       </div>
       <div className="content-detalhe-produto">

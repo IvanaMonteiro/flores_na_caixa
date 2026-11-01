@@ -7,7 +7,7 @@ export default function PageNotFound() {
   return (
     <div className="content-page-404">
       <img
-        src="/project-vite-react-ecommerce/assets/404.png"
+      src={`${import.meta.env.BASE_URL}assets/404.png`}
         alt="Page Not Found"
       />
 
